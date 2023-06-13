@@ -1,0 +1,12 @@
+.display-screen {
+    flex: 1; /* Allow the display screen to occupy the remaining space */
+    border: 1px solid #ccc;
+    background-color: #f8f8f8;
+    padding: 10px;
+    height: calc(100% - 20px); /* Adjust the height calculation based on the padding */
+    overflow-y: auto;
+}
+  
+.display-line {
+    margin-bottom: 10px;
+}
